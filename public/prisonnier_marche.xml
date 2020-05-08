@@ -1,0 +1,580 @@
+<!-- POSE DU PRISONNIER : MARCHE (WALK) -->
+
+
+<!-- DEBUT -->
+
+<Motions>
+	<!-- TETE -->
+	<Motion duration="33" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-1" y="-51.15" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			symbolName="elements/tete">
+		<dimensions>
+			<geom:Rectangle left="-13.7" top="-11.05" width="27.4" height="22.15" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.5" y="0.8487584650112868" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="4" zDepth="0" tweenSnap="true" x="2.05" y="-4.100000000000001" rotation="7.7">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="8" zDepth="0" tweenSnap="true" x="5.7" y="1.1499999999999986" rotation="16.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="12" zDepth="0" tweenSnap="true" x="2.05" y="-0.10000000000000142" rotation="7.7">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="16" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="20" zDepth="0" tweenSnap="true" x="2.05" y="-4.100000000000001" rotation="7.7">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="24" zDepth="0" tweenSnap="true" x="5.7" y="1.1499999999999986" rotation="16.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="28" zDepth="0" tweenSnap="true" x="2.05" y="-0.10000000000000142" rotation="7.7">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="32" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+	</Motion>
+
+
+	<!-- CORPS (TORSE) -->
+
+
+	<Motion duration="33" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-0.4" y="-46.2" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			symbolName="elements/corps">
+		<dimensions>
+			<geom:Rectangle left="-16.4" top="-16.45" width="32.8" height="32.9" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.5" y="0.1474164133738602" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="4" zDepth="0" tweenSnap="true" x="1.75" y="-4.049999999999997" rotation="4.4">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="8" zDepth="0" tweenSnap="true" x="4.25" y="0.15000000000000568" rotation="7.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="12" zDepth="0" tweenSnap="true" x="1.75" y="-0.04999999999999716" rotation="4.4">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="16" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="20" zDepth="0" tweenSnap="true" x="1.75" y="-4.049999999999997" rotation="4.4">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="24" zDepth="0" tweenSnap="true" x="4.25" y="0.15000000000000568" rotation="7.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="28" zDepth="0" tweenSnap="true" x="1.75" y="-0.04999999999999716" rotation="4.4">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="32" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+	</Motion>
+
+
+	<!-- JAMBE 1 -->
+
+
+	<Motion duration="33" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="0.1" y="-29.65" scaleX="1" scaleY="1" rotation="-0.4" elementType="movie clip"
+			symbolName="elements/jambe1">
+		<dimensions>
+			<geom:Rectangle left="-5.95" top="-16.45" width="11.95" height="32.9" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.502092050209205" y="0.09878419452887538" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="4" zDepth="0" tweenSnap="true" x="-3" rotation="5.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="8" zDepth="0" tweenSnap="true" x="-1.25" y="1.25" rotation="26.5">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="12" zDepth="0" tweenSnap="true" x="1.9" y="-1.1000000000000014" rotation="26.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="16" zDepth="0" tweenSnap="true" x="5.4" y="-4" rotation="19.599999999999998">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="20" zDepth="0" tweenSnap="true" x="5.45" y="-8.600000000000001" rotation="-2.6">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="24" zDepth="0" tweenSnap="true" x="8.950000000000001" y="0.5499999999999972" rotation="0.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="28" zDepth="0" tweenSnap="true" x="3" y="0.4499999999999993" rotation="-5.3">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="32" zDepth="0" tweenSnap="true" x="0" y="-0.05000000000000071" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+	</Motion>
+
+
+	<!-- JAMBE 2 -->
+
+
+	<Motion duration="33" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="5.5" y="-33.65" scaleX="1" scaleY="1" rotation="19.2" elementType="movie clip"
+			symbolName="elements/jambe2">
+		<dimensions>
+			<geom:Rectangle left="-5.95" top="-16.45" width="11.95" height="32.9" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.5104602510460252" y="0.11246200607902734" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="4" zDepth="0" tweenSnap="true" y="-4.600000000000001" rotation="-22.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="8" zDepth="0" tweenSnap="true" x="3.5500000000000007" y="4.549999999999997" rotation="-19.4">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="12" zDepth="0" tweenSnap="true" x="-2.4" y="4.449999999999999" rotation="-24.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="16" zDepth="0" tweenSnap="true" x="-5.4" y="3.9499999999999993" rotation="-19.599999999999998">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="20" zDepth="0" tweenSnap="true" x="-8.4" y="4.049999999999997" rotation="-14.399999999999999">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="24" zDepth="0" tweenSnap="true" x="-6.65" y="5.25" rotation="6.900000000000002">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="28" zDepth="0" tweenSnap="true" x="-3.5" y="2.8999999999999986" rotation="6.600000000000001">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="32" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+	</Motion>
+
+
+	<!-- BRAS 1 -->
+
+
+	<Motion duration="33" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-13.05" y="-43.65" scaleX="1" scaleY="1" rotation="5.5" elementType="movie clip"
+			symbolName="elements/bras1">
+		<dimensions>
+			<geom:Rectangle left="-9.85" top="-16.65" width="19.75" height="33.35" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.6886075949367089" y="0.14992503748125932" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="4" zDepth="0" tweenSnap="true" x="1.3000000000000007" y="-5.700000000000003"
+			rotation="-0.7999999999999998">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="8" zDepth="0" tweenSnap="true" x="3.450000000000001" y="-2.1000000000000014" rotation="-3.4">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="12" zDepth="0" tweenSnap="true" x="1.3000000000000007" y="-1.7000000000000028"
+			rotation="-0.7999999999999998">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="16" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="20" zDepth="0" tweenSnap="true" x="1.4000000000000004" y="-5.550000000000004" rotation="4.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="24" zDepth="0" tweenSnap="true" x="3.5500000000000007" y="-2.0500000000000043"
+			rotation="10.899999999999999">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="28" zDepth="0" tweenSnap="true" x="1.4000000000000004" y="-1.5500000000000043" rotation="5.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="32" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+	</Motion>
+
+
+	<!-- BRAS 2 -->
+
+
+	<Motion duration="33" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="12.9" y="-43.95" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			symbolName="elements/bras2">
+		<dimensions>
+			<geom:Rectangle left="-9.95" top="-16.7" width="19.9" height="33.4" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.3316582914572864" y="0.14371257485029937" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="4" zDepth="0" tweenSnap="true" x="1.8499999999999996" y="-3.5" rotation="2.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="8" zDepth="0" tweenSnap="true" x="4.299999999999999" y="1.0500000000000043" rotation="-1.5">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="12" zDepth="0" tweenSnap="true" x="1.75" y="0.5500000000000043" rotation="1.2">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="16" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="20" zDepth="0" tweenSnap="true" x="1.6999999999999993" y="-3.4499999999999957" rotation="9.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="24" zDepth="0" tweenSnap="true" x="4.200000000000001" y="1.1000000000000014" rotation="17.7">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0.6666666666666666" />
+					<geom:Point x="0.6666666666666667" y="1" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="28" zDepth="0" tweenSnap="true" x="1.6999999999999993" y="0.5500000000000043" rotation="9.9">
+			<tweens>
+				<CustomEase target="all">
+					<geom:Point x="0.3333333333333333" y="0" />
+					<geom:Point x="0.6666666666666667" y="0.33333333333333337" />
+				</CustomEase>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="32" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+	</Motion>
+
+</Motions>
+
+
+<!-- FIN -->
