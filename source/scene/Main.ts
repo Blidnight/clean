@@ -180,7 +180,7 @@ export default class Main extends Phaser.Scene {
         let interfaces : LevelInterface = new LevelInterface(this, 100, 60, 20)
         staticObject.add(interfaces)
 
-        new DialogRejouer(this)
+        new DialogStart(this)
 
         
 
