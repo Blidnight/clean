@@ -26,7 +26,19 @@ export default class Piege extends Phaser.GameObjects.Sprite {
         }
 
         this.body.setOffset(this.width / 2, this.height / 2)
-        setTimeout(() => this.hide(), Phaser.Math.Between(500, 6000))
+
+        let starter = Phaser.Math.Between(0, 1)
+        let starter2 = Phaser.Math.Between(0, 1)
+
+        if (starter2 === 1)  {
+            this.x = this.x + this.width * direction[this.direction].x
+            this.y = this.y + this.height * direction[this.direction].y
+            setTimeout(() => this.show(), 1500)
+        } else {
+            setTimeout(() => this.hide(), 1500)
+        }
+        
+        
     }
 
     addMask(): void {
@@ -45,11 +57,11 @@ export default class Piege extends Phaser.GameObjects.Sprite {
             targets: this,
             x : this.x + this.width * direction[this.direction].x,
             y: this.y + this.height * direction[this.direction].y,
-            duration: 600,
+            duration: 200,
             onComplete: () => {
                 setTimeout(() => {
                     this.show()
-                }, Phaser.Math.Between(3000, 5000))
+                }, 1500)
             }
         })
     }
@@ -59,12 +71,12 @@ export default class Piege extends Phaser.GameObjects.Sprite {
             targets: this,
             x : this.x - this.width * direction[this.direction].x,
             y: this.y - this.height * direction[this.direction].y,
-            duration: 600,
+            duration: 200,
             onComplete: () => {
                 this.body.enable = true
                 setTimeout(() => {
                     this.hide()
-                },  Phaser.Math.Between(5000, 8000))
+                },  1500)
             }
         })
     }

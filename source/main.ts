@@ -7,6 +7,7 @@ const config = {
     width: 800,
     height: 600,
     scene: [Main],
+    parent : "game",
     physics: {
         default: "arcade",
         arcade: {

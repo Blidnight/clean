@@ -1,0 +1,229 @@
+<!-- POSE DU PRISONNIER : MONTE ECHELLE -->
+
+
+
+<!-- TETE -->
+<Motions>
+	<Motion duration="32" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-1" y="-51.15" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			instanceName="tete" symbolName="elements corps/tete verso">
+		<dimensions>
+			<geom:Rectangle left="-12.7" top="-11.05" width="26.55" height="22.15" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.47834274952919015" y="0.8487584650112868" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="7" zDepth="0" tweenSync="true" x="0.44999999999999996" y="-3.200000000000003" rotation="9.2" />
+
+		<Keyframe index="9" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="15" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="23" zDepth="0" tweenSync="true" x="-0.55" y="-2.8500000000000014" rotation="-10.2" />
+
+		<Keyframe index="25" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="31" zDepth="0" x="0" y="0" rotation="0" />
+	</Motion>
+
+
+	<!-- CORPS (TORSE) -->
+
+
+	<Motion duration="32" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-0.4" y="-46.2" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			instanceName="corps" symbolName="elements corps/corps verso">
+		<dimensions>
+			<geom:Rectangle left="-16.4" top="-16.45" width="32.8" height="32.9" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.5" y="0.1474164133738602" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="7" zDepth="0" tweenSync="true" x="0.35000000000000003" y="-2.8999999999999986"
+			rotation="2.9" />
+
+		<Keyframe index="9" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="15" zDepth="0" tweenSnap="true" x="0" y="0" rotation="0">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="23" zDepth="0" tweenSync="true" x="-0.15000000000000002" y="-2.799999999999997"
+			rotation="-4" />
+
+		<Keyframe index="25" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="31" zDepth="0" x="0" y="0" rotation="0" />
+	</Motion>
+
+
+	<!-- JAMBE 1 -->
+
+
+	<Motion duration="32" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="6.85" y="-29.75" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			instanceName="jambe1" symbolName="elements corps/jambe1">
+		<dimensions>
+			<geom:Rectangle left="-5.95" top="-16.45" width="11.95" height="32.9" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.5104602510460252" y="0.09574468085106379" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSync="true" />
+
+		<Keyframe index="15" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="23" zDepth="0" tweenSync="true" x="0.15000000000000036" y="-12.549999999999997" />
+
+		<Keyframe index="25" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="31" zDepth="0" x="0" y="0" />
+	</Motion>
+
+
+	<!-- JAMBE 2 -->
+
+
+	<Motion duration="32" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-7.35" y="-29.4" scaleX="1" scaleY="1" rotation="0" elementType="movie clip"
+			instanceName="jambe2" symbolName="elements corps/jambe2">
+		<dimensions>
+			<geom:Rectangle left="-5.95" top="-16.45" width="11.95" height="32.9" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.5188284518828452" y="0.10638297872340426" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="7" zDepth="0" x="-0.15000000000000036" y="-9.75" />
+
+		<Keyframe index="9" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="15" zDepth="0" tweenSync="true" x="0" y="0" />
+	</Motion>
+
+
+	<!-- BRAS 1 -->
+
+
+	<Motion duration="32" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="-13.2" y="-43.95" scaleX="1" scaleY="0.728" skewX="133.2" skewY="143"
+			elementType="movie clip" instanceName="bras1" symbolName="elements corps/bras1">
+		<dimensions>
+			<geom:Rectangle left="-9.85" top="-16.65" width="19.75" height="33.35" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.6708860759493671" y="0.1589205397301349" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="7" zDepth="0" tweenSync="true" x="0.4499999999999993" y="-4.049999999999997"
+			scaleY="1.1964285714285714" skewX="0.8000000000000114" />
+
+		<Keyframe index="9" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="15" zDepth="0" tweenSync="true" x="0.049999999999998934" y="-0.04999999999999716" scaleY="1"
+			rotation="0" />
+	</Motion>
+
+
+	<!-- BRAS 2 -->
+
+
+	<Motion duration="32" xmlns="fl.motion.*" xmlns:geom="flash.geom.*" xmlns:filters="flash.filters.*">
+		<source>
+		<Source frameRate="24" x="12.85" y="-44.05" scaleX="1" scaleY="0.67" skewX="-132.7" skewY="-138.8"
+			elementType="movie clip" instanceName="bras2" symbolName="elements corps/bras2">
+		<dimensions>
+			<geom:Rectangle left="-9.95" top="-16.7" width="19.9" height="33.4" />
+		</dimensions>
+		<transformationPoint>
+			<geom:Point x="0.3417085427135678" y="0.15419161676646703" />
+		</transformationPoint>
+		</Source>
+		</source>
+
+		<Keyframe index="0" zDepth="0" />
+
+		<Keyframe index="15" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="23" zDepth="0" tweenSync="true" x="0.15000000000000036" y="-5.25" scaleY="1.164179104477612"
+			skewX="1.299999999999983" />
+
+		<Keyframe index="25" zDepth="0" tweenSnap="true">
+			<tweens>
+			</tweens>
+		</Keyframe>
+
+		<Keyframe index="31" zDepth="0" x="0" y="0" scaleY="1" rotation="0" />
+	</Motion>
+</Motions>
+
+<!-- FIN -->
