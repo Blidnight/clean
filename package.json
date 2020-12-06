@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "webpack-dev-server --hot",
+    "dev": "webpack-dev-server --hot",
     "build": "webpack --mode development"
   },
   "keywords": [],
@@ -30,6 +30,7 @@
     "html-webpack-plugin": "^4.0.3"
   },
   "dependencies": {
+    "matter-js": "^0.14.2",
     "phaser": "^3.22.0"
   }
 }

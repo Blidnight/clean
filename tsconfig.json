@@ -12,6 +12,9 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
+    "typeRoots": [
+      "./source/matter.d.ts"
+    ],
     "paths": {
       "*": [
         "*",
